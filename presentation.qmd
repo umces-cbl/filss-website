@@ -1,0 +1,172 @@
+---
+title: "Creating a Website"
+subtitle: "From soup to... soup"
+author: Mike O'Brien
+date: March 15, 2024
+format:
+  revealjs:
+    theme: night
+    embed-resources: true
+toc: true
+toc-depth: 1
+
+---
+
+## Why a website?
+
+-   Communication
+
+    -   more people have phones than computers
+
+-   Lasting; take it with you when you go
+
+-   Professionalism
+
+    ::: {.fragment .fade-in}
+    -   gReEnDaYFANxx\@yahoo.com
+    :::
+
+# Setting up a website
+
+## Purchase a domain
+
+-   \$1+ per year (usually \$5-\$20 per year)
+    -   [https://www.namecheap.com/](https://www.namecheap.com/domains/registration/results/?domain=myawesomefilsssite)
+    -   [https://www.squarespace.com/](https://domains.squarespace.com/?query=myawesomefilsssite)
+    -   [https://www.godaddy.com/](https://www.godaddy.com/domainsearch/find?domainToCheck=myawesomefilsssite)
+
+## Domain Name System (DNS)
+
+-   Under the hood, websites are named with gibberish, also known as an IP address ("Internet Protocol")
+    -   IPv4: 192.168.1.1
+    -   IPv6: 2400:cb00:2048:1::c629:d7a2
+-   DNS translates this to something readable
+    -   myawesomefilsssite.com
+
+## DNS Records
+
+![](images/clipboard-902628944.png)
+
+## DNS Records
+
+| Type                                                                           | Name             | Content                   |
+|---------------------|---------------------|------------------------------|
+| [A](https://www.cloudflare.com/learning/dns/dns-records/dns-aaaa-record)       | awesomesite.com  | 123.456.7.8               |
+| [AAAA](https://www.cloudflare.com/learning/dns/dns-records/dns-aaaa-record)    | awesomesite.com  | 1234:abc5:1234::abc       |
+| [CNAME](https://www.cloudflare.com/learning/dns/dns-records/dns-cname-record/) | subdomain (www)  | wheremysiteishosted       |
+| [TXT](https://www.cloudflare.com/learning/dns/dns-records/dns-txt-record/)     | web_verification | Yes, this is actually me! |
+
+## Nameservers
+
+Tell the world what server holds the other records.
+
+| Type                                                                     | Value            |
+|---------------------------------|---------------------------------------|
+| [NS](https://www.cloudflare.com/learning/dns/dns-records/dns-ns-record/) | ns.examplens.com |
+
+-   I use Cloudflare as it has a good bit of protections and services for free.
+-   **Including email forwarding!!**
+-   Involves changing the nameserver listed with your provider to Cloudflare and verifying
+
+## Verification
+
+-   [Google Sites](https://support.google.com/sites/answer/9068867?hl=en): TXT and (sometimes) CNAME
+-   [Canva](https://www.canva.com/help/dns-settings/): A and TXT
+-   [GitHub](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site): A and AAAA
+-   [WordPress.com](https://wordpress.com/support/domains/connect-a-domain-alternative-method/): A and CNAME
+
+# What is a website?
+
+-   A folder with files in it
+
+-   Three challenges:
+
+    -   Creating the stuff that goes in the folders (website development)
+    -   Making sure other people can see the stuff (web hosting/content management system)
+
+    ::: {.fragment .strike}
+    -   Making sure other people can't mess with the stuff (cyber security)
+    :::
+
+## Pick a web hosting service
+
+-   Yourself
+    -   Good luck. (Security)
+-   Someone else -- "A server somewhere in Arlington"
+    -   [Digital Ocean](https://www.digitalocean.com/)
+    -   [Cloudflare](https://www.cloudflare.com/developer-platform/hosting/)
+    -   [Amazon](https://aws.amazon.com/websites/)
+
+## Pick a web hosting service and design
+
+-   [WordPress.com](https://wordpress.com/)
+-   [Squarespace](https://www.squarespace.com/)
+-   [Wix](https://www.wix.com/)
+
+# Email
+
+mikeob9\@gmail.com 🙃
+
+::: fragment
+Maybe... this could be more professional.
+:::
+
+::: fragment
+Assuming you're using GMail and Cloudflare:
+:::
+
+## Set up Cloudflare
+
+Adjust DNS settings as noted above to switch website to Cloudflare
+
+![](images/clipboard-3581260240.png){width="500"}
+
+## Set up email forwarding
+
+Email \> Email Routing \> Routing Rules \> Create address
+
+![](images/clipboard-1572124971.png){width="517"}
+
+## Make Google key
+
+Manage Google Account \> Security \> Two-step verification ![](images/clipboard-480173517.png)
+
+## Make Google key
+
+App passwords
+
+![](images/clipboard-2883049169.png)
+
+## Make Google key
+
+Create a new app name, it will provide a password. Copy this; you'll never see it again!
+
+![](images/clipboard-3769016469.png)
+
+## Set up forwarding
+
+Accounts \> Send mail as \> Add another email address
+
+![](images/clipboard-3592765291.png)
+
+## Set up forwarding
+
+Put your new forwarding email in the "Email address" box.
+
+![](images/clipboard-2488055269.png)
+
+## Set up forwarding
+
+Paste the app key made above into the "Password" box.
+
+![](images/clipboard-902780692.png)
+
+# Time check
+
+# Me?
+
+-   Domain: ~~Google Domains~~ Namecheap + Cloudflare
+-   Content: [Quarto](https://quarto.org/docs/websites/)
+-   Hosting: [GitHub Pages](https://pages.github.com/)
+
+## Make a website
