@@ -163,10 +163,4 @@ Paste the app key made above into the "Password" box.
 
 # Time check
 
-# Me?
-
--   Domain: ~~Google Domains~~ Namecheap + Cloudflare
--   Content: [Quarto](https://quarto.org/docs/websites/)
--   Hosting: [GitHub Pages](https://pages.github.com/)
-
-## Make a website
+Soup to nuts?
