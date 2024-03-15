@@ -9,18 +9,61 @@ format:
     embed-resources: true
 toc: true
 toc-depth: 1
-
 ---
+
+## Why a website?
+
+::: callout-warning
+These are opinions!
+:::
+
+Publish or [[perish]{.fragment .highlight-red fragment-index=1}.]{.fragment fragment-index=1}
+
+::: fragment
+But what is "publishing"?
+:::
+
+## Publishing?
+
+Peer-reviewed manuscripts
+
+::: {.fragment}
+*Digital Scholarly Journals are Poorly Preserved: A Study of 7 Million Articles* Eve 2024. Journal of Librarianship and Scholarly Communication.
+
+::: {.callout-warning}
+58.38% of works were present in at least one archive. 27.64% were seemingly unpreserved.
+
+Only 0.96% of Crossref members (n = 204) can be confirmed to digitally preserve over 75% of their content in three or more of the archives that we studied. 
+:::
+:::
+
+## Publishing ?
+::::: {.columns}
+:::: {.column}
+- Blogs
+- Final Reports
+- Indexed by Google Scholar and other aggregators
+- Can attain DOI (persistance)
+
+::::
+:::: {.column}
+::: {.fragment}
+![](images/clipboard-2732961470.png)
+:::
+::::
+:::::
 
 ## Why a website?
 
 -   Communication
 
-    -   more people have phones than computers
+    -   more people have phones than computers, especially in underprivileged communities (2020 US Census)
 
 -   Lasting; take it with you when you go
 
 -   Professionalism
+
+    - You are going to be "Googled"
 
     ::: {.fragment .fade-in}
     -   gReEnDaYFANxx\@yahoo.com
