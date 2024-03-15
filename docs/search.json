@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "presentation.html#why-a-website",
+    "href": "presentation.html#why-a-website",
+    "title": "Creating a Website",
+    "section": "Why a website?",
+    "text": "Why a website?\n\n\n\n\n\n\nWarning\n\n\nThese are opinions!\n\n\n\nPublish or perish.\n\nBut what is “publishing”?"
+  },
+  {
+    "objectID": "presentation.html#publishing",
+    "href": "presentation.html#publishing",
+    "title": "Creating a Website",
+    "section": "Publishing?",
+    "text": "Publishing?\nPeer-reviewed manuscripts\n\nDigital Scholarly Journals are Poorly Preserved: A Study of 7 Million Articles Eve 2024. Journal of Librarianship and Scholarly Communication.\n\n\n\n\n\n\nWarning\n\n\n58.38% of works were present in at least one archive. 27.64% were seemingly unpreserved.\nOnly 0.96% of Crossref members (n = 204) can be confirmed to digitally preserve over 75% of their content in three or more of the archives that we studied."
+  },
+  {
+    "objectID": "presentation.html#publishing-1",
+    "href": "presentation.html#publishing-1",
+    "title": "Creating a Website",
+    "section": "Publishing ?",
+    "text": "Publishing ?\n\n\n\nBlogs\nFinal Reports\nIndexed by Google Scholar and other aggregators\nCan attain DOI (persistance)"
+  },
+  {
+    "objectID": "presentation.html#why-a-website-1",
+    "href": "presentation.html#why-a-website-1",
+    "title": "Creating a Website",
+    "section": "Why a website?",
+    "text": "Why a website?\n\nCommunication\n\nmore people have phones than computers, especially in underprivileged communities (2020 US Census)\n\nLasting; take it with you when you go\nProfessionalism\n\nYou are going to be “Googled”\n\n\n\ngReEnDaYFANxx@yahoo.com"
+  },
+  {
+    "objectID": "presentation.html#purchase-a-domain",
+    "href": "presentation.html#purchase-a-domain",
+    "title": "Creating a Website",
+    "section": "Purchase a domain",
+    "text": "Purchase a domain\n\n$1+ per year (usually $5-$20 per year)\n\nhttps://www.namecheap.com/\nhttps://www.squarespace.com/\nhttps://www.godaddy.com/"
+  },
+  {
+    "objectID": "presentation.html#domain-name-system-dns",
+    "href": "presentation.html#domain-name-system-dns",
+    "title": "Creating a Website",
+    "section": "Domain Name System (DNS)",
+    "text": "Domain Name System (DNS)\n\nUnder the hood, websites are named with gibberish, also known as an IP address (“Internet Protocol”)\n\nIPv4: 192.168.1.1\nIPv6: 2400:cb00:2048:1::c629:d7a2\n\nDNS translates this to something readable\n\nmyawesomefilsssite.com"
+  },
+  {
+    "objectID": "presentation.html#dns-records",
+    "href": "presentation.html#dns-records",
+    "title": "Creating a Website",
+    "section": "DNS Records",
+    "text": "DNS Records"
+  },
+  {
+    "objectID": "presentation.html#dns-records-1",
+    "href": "presentation.html#dns-records-1",
+    "title": "Creating a Website",
+    "section": "DNS Records",
+    "text": "DNS Records\n\n\n\nType\nName\nContent\n\n\n\n\nA\nawesomesite.com\n123.456.7.8\n\n\nAAAA\nawesomesite.com\n1234:abc5:1234::abc\n\n\nCNAME\nsubdomain (www)\nwheremysiteishosted\n\n\nTXT\nweb_verification\nYes, this is actually me!"
+  },
+  {
+    "objectID": "presentation.html#nameservers",
+    "href": "presentation.html#nameservers",
+    "title": "Creating a Website",
+    "section": "Nameservers",
+    "text": "Nameservers\nTell the world what server holds the other records.\n\n\n\nType\nValue\n\n\n\n\nNS\nns.examplens.com\n\n\n\n\nI use Cloudflare as it has a good bit of protections and services for free.\nIncluding email forwarding!!\nInvolves changing the nameserver listed with your provider to Cloudflare and verifying"
+  },
+  {
+    "objectID": "presentation.html#verification",
+    "href": "presentation.html#verification",
+    "title": "Creating a Website",
+    "section": "Verification",
+    "text": "Verification\n\nGoogle Sites: TXT and (sometimes) CNAME\nCanva: A and TXT\nGitHub: A and AAAA\nWordPress.com: A and CNAME"
+  },
+  {
+    "objectID": "presentation.html#pick-a-web-hosting-service",
+    "href": "presentation.html#pick-a-web-hosting-service",
+    "title": "Creating a Website",
+    "section": "Pick a web hosting service",
+    "text": "Pick a web hosting service\n\nYourself\n\nGood luck. (Security)\n\nSomeone else – “A server somewhere in Arlington”\n\nDigital Ocean\nCloudflare\nAmazon"
+  },
+  {
+    "objectID": "presentation.html#pick-a-web-hosting-service-and-design",
+    "href": "presentation.html#pick-a-web-hosting-service-and-design",
+    "title": "Creating a Website",
+    "section": "Pick a web hosting service and design",
+    "text": "Pick a web hosting service and design\n\nWordPress.com\nSquarespace\nWix"
+  },
+  {
+    "objectID": "presentation.html#set-up-cloudflare",
+    "href": "presentation.html#set-up-cloudflare",
+    "title": "Creating a Website",
+    "section": "Set up Cloudflare",
+    "text": "Set up Cloudflare\nAdjust DNS settings as noted above to switch website to Cloudflare"
+  },
+  {
+    "objectID": "presentation.html#set-up-email-forwarding",
+    "href": "presentation.html#set-up-email-forwarding",
+    "title": "Creating a Website",
+    "section": "Set up email forwarding",
+    "text": "Set up email forwarding\nEmail &gt; Email Routing &gt; Routing Rules &gt; Create address"
+  },
+  {
+    "objectID": "presentation.html#make-google-key",
+    "href": "presentation.html#make-google-key",
+    "title": "Creating a Website",
+    "section": "Make Google key",
+    "text": "Make Google key\nManage Google Account &gt; Security &gt; Two-step verification"
+  },
+  {
+    "objectID": "presentation.html#make-google-key-1",
+    "href": "presentation.html#make-google-key-1",
+    "title": "Creating a Website",
+    "section": "Make Google key",
+    "text": "Make Google key\nApp passwords"
+  },
+  {
+    "objectID": "presentation.html#make-google-key-2",
+    "href": "presentation.html#make-google-key-2",
+    "title": "Creating a Website",
+    "section": "Make Google key",
+    "text": "Make Google key\nCreate a new app name, it will provide a password. Copy this; you’ll never see it again!"
+  },
+  {
+    "objectID": "presentation.html#set-up-forwarding",
+    "href": "presentation.html#set-up-forwarding",
+    "title": "Creating a Website",
+    "section": "Set up forwarding",
+    "text": "Set up forwarding\nAccounts &gt; Send mail as &gt; Add another email address"
+  },
+  {
+    "objectID": "presentation.html#set-up-forwarding-1",
+    "href": "presentation.html#set-up-forwarding-1",
+    "title": "Creating a Website",
+    "section": "Set up forwarding",
+    "text": "Set up forwarding\nPut your new forwarding email in the “Email address” box."
+  },
+  {
+    "objectID": "presentation.html#set-up-forwarding-2",
+    "href": "presentation.html#set-up-forwarding-2",
+    "title": "Creating a Website",
+    "section": "Set up forwarding",
+    "text": "Set up forwarding\nPaste the app key made above into the “Password” box."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "today",
+    "section": "",
+    "text": "This is what will show up first."
+  }
+]
