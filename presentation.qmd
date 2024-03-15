@@ -17,7 +17,7 @@ toc-depth: 1
 These are opinions!
 :::
 
-Publish or [[perish]{.fragment .highlight-red fragment-index=1}.]{.fragment fragment-index=1}
+Publish or [perish]{.fragment .highlight-red fragment-index="1"}.
 
 ::: fragment
 But what is "publishing"?
@@ -27,31 +27,32 @@ But what is "publishing"?
 
 Peer-reviewed manuscripts
 
-::: {.fragment}
+::: fragment
 *Digital Scholarly Journals are Poorly Preserved: A Study of 7 Million Articles* Eve 2024. Journal of Librarianship and Scholarly Communication.
 
-::: {.callout-warning}
+::: callout-warning
 58.38% of works were present in at least one archive. 27.64% were seemingly unpreserved.
 
-Only 0.96% of Crossref members (n = 204) can be confirmed to digitally preserve over 75% of their content in three or more of the archives that we studied. 
+Only 0.96% of Crossref members (n = 204) can be confirmed to digitally preserve over 75% of their content in three or more of the archives that we studied.
 :::
 :::
 
 ## Publishing ?
-::::: {.columns}
-:::: {.column}
-- Blogs
-- Final Reports
-- Indexed by Google Scholar and other aggregators
-- Can attain DOI (persistance)
 
-::::
-:::: {.column}
-::: {.fragment}
+::: columns
+::: column
+-   Blogs
+-   Final Reports
+-   Indexed by Google Scholar and other aggregators
+-   Can attain DOI (persistance)
+:::
+
+::: column
+::: fragment
 ![](images/clipboard-2732961470.png)
 :::
-::::
-:::::
+:::
+:::
 
 ## Why a website?
 
@@ -63,7 +64,7 @@ Only 0.96% of Crossref members (n = 204) can be confirmed to digitally preserve 
 
 -   Professionalism
 
-    - You are going to be "Googled"
+    -   You are going to be "Googled"
 
     ::: {.fragment .fade-in}
     -   gReEnDaYFANxx\@yahoo.com
@@ -207,3 +208,51 @@ Paste the app key made above into the "Password" box.
 # Time check
 
 Soup to nuts?
+
+## Register domain
+
+![](images/clipboard-3550670222.png)
+
+## Register with Cloudflare
+
+![](images/Screenshot 2024-03-15 121755.png)
+
+## Register with Cloudflare (free)
+
+![](images/Screenshot 2024-03-15 121808.png)
+
+## Change Nameservers
+
+![](images/Screenshot 2024-03-15 121939.png)
+
+## Change Nameservers
+
+![](images/Screenshot 2024-03-15 122004.png)
+
+## Change DNS settings to point to GitHub
+
+[Instructions here](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain)
+
+![](images/Screenshot 2024-03-15 123112.png)
+
+## Create Quarto website
+
+Make website: <https://quarto.org/docs/websites/>
+
+Push website to GitHub: <https://quarto.org/docs/publishing/github-pages.html>
+
+(If you need to get set up with Git, which can be a pain, follow the guides here: <https://happygitwithr.com/>)
+
+## Add CNAME
+
+Add CNAME file to root of directory and push to GitHub.
+
+![](images/clipboard-4245466111.png)
+
+## Add custom domain
+
+![](images/clipboard-3556020739.png)
+
+## Ta-da! 🎉
+
+![](images/clipboard-1772942445.png)

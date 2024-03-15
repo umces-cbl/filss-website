@@ -145,5 +145,75 @@
     "title": "today",
     "section": "",
     "text": "This is what will show up first."
+  },
+  {
+    "objectID": "presentation.html#register-domain",
+    "href": "presentation.html#register-domain",
+    "title": "Creating a Website",
+    "section": "Register domain",
+    "text": "Register domain"
+  },
+  {
+    "objectID": "presentation.html#register-with-cloudflare",
+    "href": "presentation.html#register-with-cloudflare",
+    "title": "Creating a Website",
+    "section": "Register with Cloudflare",
+    "text": "Register with Cloudflare"
+  },
+  {
+    "objectID": "presentation.html#register-with-cloudflare-free",
+    "href": "presentation.html#register-with-cloudflare-free",
+    "title": "Creating a Website",
+    "section": "Register with Cloudflare (free)",
+    "text": "Register with Cloudflare (free)"
+  },
+  {
+    "objectID": "presentation.html#change-nameservers",
+    "href": "presentation.html#change-nameservers",
+    "title": "Creating a Website",
+    "section": "Change Nameservers",
+    "text": "Change Nameservers"
+  },
+  {
+    "objectID": "presentation.html#change-nameservers-1",
+    "href": "presentation.html#change-nameservers-1",
+    "title": "Creating a Website",
+    "section": "Change Nameservers",
+    "text": "Change Nameservers"
+  },
+  {
+    "objectID": "presentation.html#change-dns-settings-to-point-to-github",
+    "href": "presentation.html#change-dns-settings-to-point-to-github",
+    "title": "Creating a Website",
+    "section": "Change DNS settings to point to GitHub",
+    "text": "Change DNS settings to point to GitHub\nInstructions here"
+  },
+  {
+    "objectID": "presentation.html#create-quarto-website",
+    "href": "presentation.html#create-quarto-website",
+    "title": "Creating a Website",
+    "section": "Create Quarto website",
+    "text": "Create Quarto website\nMake website: https://quarto.org/docs/websites/\nPush website to GitHub: https://quarto.org/docs/publishing/github-pages.html\n(If you need to get set up with Git, which can be a pain, follow the guides here: https://happygitwithr.com/)"
+  },
+  {
+    "objectID": "presentation.html#add-cname",
+    "href": "presentation.html#add-cname",
+    "title": "Creating a Website",
+    "section": "Add CNAME",
+    "text": "Add CNAME\nAdd CNAME file to root of directory and push to GitHub."
+  },
+  {
+    "objectID": "presentation.html#add-custom-domain",
+    "href": "presentation.html#add-custom-domain",
+    "title": "Creating a Website",
+    "section": "Add custom domain",
+    "text": "Add custom domain"
+  },
+  {
+    "objectID": "presentation.html#ta-da",
+    "href": "presentation.html#ta-da",
+    "title": "Creating a Website",
+    "section": "Ta-da! 🎉",
+    "text": "Ta-da! 🎉"
   }
 ]
